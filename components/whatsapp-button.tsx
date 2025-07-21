@@ -1,36 +1,36 @@
-"use client"
+'use client';
 
-import { useState, useEffect } from "react"
-import { X } from "lucide-react"
+import { useState, useEffect } from 'react';
+import { X } from 'lucide-react';
 
 export default function WhatsAppButton() {
-  const [isVisible, setIsVisible] = useState(false)
-  const [isExpanded, setIsExpanded] = useState(false)
+  const [isVisible, setIsVisible] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsVisible(true)
-    }, 2000) // Aparece após 2 segundos
+      setIsVisible(true);
+    }, 2000); // Aparece após 2 segundos
 
-    return () => clearTimeout(timer)
-  }, [])
+    return () => clearTimeout(timer);
+  }, []);
 
-  const phoneNumber = "5511999999999" // Formato internacional
-  const message = "Olá! Gostaria de agendar uma consulta gratuita sobre benefícios do INSS."
+  const phoneNumber = '558491110007'; // Formato internacional
+  const message = 'Olá! Vim pelo seu site e gostaria de agendar uma consulta';
 
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
-    window.open(url, "_blank")
-  }
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
 
-  if (!isVisible) return null
+  if (!isVisible) return null;
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {/* Expanded Card */}
       <div
         className={`absolute bottom-16 right-0 bg-white shadow-xl rounded-lg p-4 w-80 transition-all duration-300 ease-out ${
-          isExpanded ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-4 scale-95 pointer-events-none"
+          isExpanded ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95 pointer-events-none'
         }`}
       >
         <div className="flex items-start justify-between mb-3">
@@ -76,5 +76,5 @@ export default function WhatsAppButton() {
         <span className="text-xs text-white font-bold">1</span>
       </div>
     </div>
-  )
+  );
 }

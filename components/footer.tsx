@@ -1,27 +1,27 @@
-"use client"
+'use client';
 
-import Image from "next/image"
+import Image from 'next/image';
 
 export default function Footer() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5511999999999"
-    const message = "Olá! Gostaria de agendar uma consulta gratuita sobre benefícios do INSS."
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
-    window.open(url, "_blank")
-  }
+    const phoneNumber = '558491110007';
+    const message = 'Olá! Vim pelo seu site e gostaria de agendar uma consulta';
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
 
   const handleSmoothScroll = (href: string) => {
-    const targetElement = document.querySelector(href)
+    const targetElement = document.querySelector(href);
     if (targetElement) {
-      const headerHeight = 100
-      const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight
+      const headerHeight = 100;
+      const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
       window.scrollTo({
         top: targetPosition,
-        behavior: "smooth",
-      })
+        behavior: 'smooth',
+      });
     }
-  }
+  };
 
   return (
     <footer className="bg-white border-t border-gray-100">
@@ -39,7 +39,7 @@ export default function Footer() {
                 className="transition-transform duration-300 hover:scale-105"
               />
               <div>
-                <h3 className="text-lg font-serif font-light text-black-deep">Jordanha Targino</h3>
+                <h3 className="text-lg font-serif font-light text-gold-dark">Jordanha Targino</h3>
                 <p className="text-xs text-gold-dark font-light tracking-[0.15em] uppercase">Advogada</p>
               </div>
             </div>
@@ -52,8 +52,8 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-light text-black-deep mb-4 tracking-wide uppercase">Contato</h4>
             <div className="space-y-2 text-sm">
-              <p className="text-gray-elegant font-light">(11) 99999-9999</p>
-              <p className="text-gray-elegant font-light">contato@jordanhatargino.adv.br</p>
+              <p className="text-gray-elegant font-light">(84) 99111-0007</p>
+              <p className="text-gray-elegant font-light">jordanha3003@gmail.com</p>
               <p className="text-gray-elegant font-light">Atendimento em todo o Brasil</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Footer() {
                 <span>WhatsApp</span>
               </button>
               <button
-                onClick={() => handleSmoothScroll("#contato")}
+                onClick={() => handleSmoothScroll('#contato')}
                 className="flex items-center space-x-2 text-gold-dark hover:text-gold-medium transition-colors font-light text-sm group cursor-pointer"
               >
                 <i className="far fa-envelope group-hover:scale-110 transition-transform"></i>
@@ -88,13 +88,13 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6 text-xs">
               <button
-                onClick={() => handleSmoothScroll("#sobre")}
+                onClick={() => handleSmoothScroll('#sobre')}
                 className="text-gray-elegant hover:text-gold-dark transition-colors font-light cursor-pointer"
               >
                 Sobre
               </button>
               <button
-                onClick={() => handleSmoothScroll("#faq")}
+                onClick={() => handleSmoothScroll('#faq')}
                 className="text-gray-elegant hover:text-gold-dark transition-colors font-light cursor-pointer"
               >
                 FAQ
@@ -110,5 +110,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

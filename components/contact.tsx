@@ -62,8 +62,8 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    { label: "Telefone", value: "(11) 99999-9999" },
-    { label: "E-mail", value: "contato@jordanhatargino.adv.br" },
+    { label: "Telefone", value: "(84) 99111-0007" },
+    { label: "E-mail", value: "jordanha3003@gmail.com" },
     { label: "Atendimento", value: "Todo o Brasil" },
     { label: "Horário", value: "08:00 às 18:00, Segunda a Sexta" },
   ]
