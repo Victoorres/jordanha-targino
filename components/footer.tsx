@@ -10,6 +10,10 @@ export default function Footer() {
     window.open(url, '_blank');
   };
 
+  const handleInstagramClick = () => {
+    window.open("https://www.instagram.com/jordanha_advocacia/", "_blank", "noopener,noreferrer")
+  };
+
   const handleSmoothScroll = (href: string) => {
     const targetElement = document.querySelector(href);
     if (targetElement) {
@@ -68,6 +72,13 @@ export default function Footer() {
               >
                 <i className="fab fa-whatsapp text-lg group-hover:scale-110 transition-transform"></i>
                 <span>WhatsApp</span>
+              </button>
+              <button
+                onClick={handleInstagramClick}
+                className="flex items-center space-x-2 text-[#C13584] hover:text-text-[#E1306C] transition-colors font-light text-sm group cursor-pointer"
+              >
+                <i className="fab fa-instagram text-lg group-hover:scale-110 transition-transform"></i>
+                <span>Instagram</span>
               </button>
               <button
                 onClick={() => handleSmoothScroll('#contato')}
