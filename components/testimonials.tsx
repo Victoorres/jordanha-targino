@@ -26,22 +26,22 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: "Maria Silva",
-      location: "São Paulo",
+      name: "Maria Helena",
+      location: "Goiânia, GO",
       text: "Dra. Jordanha me ajudou a conseguir meu BPC/LOAS após várias tentativas negadas. Profissional excepcional, sempre disponível e muito competente.",
       benefit: "BPC/LOAS",
       image: "/placeholder.svg?height=80&width=80&text=MS",
     },
     {
-      name: "João Santos",
-      location: "Rio de Janeiro",
+      name: "Ademy Souza",
+      location: "Goiânia, GO",
       text: "Consegui minha aposentadoria por invalidez com a ajuda da Dra. Jordanha. Processo rápido e eficiente. Profissional que realmente entende do assunto.",
       benefit: "Aposentadoria por Invalidez",
       image: "/placeholder.svg?height=80&width=80&text=JS",
     },
     {
-      name: "Ana Costa",
-      location: "Belo Horizonte",
+      name: "João Loló",
+      location: "Baraúna, RN",
       text: "Excelente profissional! Me orientou durante todo o processo e conseguiu a revisão do meu benefício. Muito grata pelo trabalho dedicado e humanizado.",
       benefit: "Revisão de Benefício",
       image: "/placeholder.svg?height=80&width=80&text=AC",
@@ -83,7 +83,7 @@ export default function Testimonials() {
               style={{ animationDelay: `${0.6 + index * 0.2}s` }}
             >
               <div className="flex items-center mb-6">
-                <div className="relative mr-4">
+                {/* <div className="relative mr-4">
                   <Image
                     src={testimonial.image || "/placeholder.svg"}
                     alt={`Foto de ${testimonial.name}`}
@@ -92,7 +92,7 @@ export default function Testimonials() {
                     className="rounded-full transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 rounded-full border border-gold-light opacity-60 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
+                </div> */}
                 <div>
                   <p className="font-serif font-normal text-black-deep transition-colors duration-300 group-hover:text-gold-dark">
                     {testimonial.name}
