@@ -43,23 +43,23 @@ export default function Services() {
       title: 'BPC/LOAS',
       description:
         'Benefício de Prestação Continuada para idosos e pessoas com deficiência que comprovem não possuir meios de prover a própria manutenção.',
-      image: '/placeholder.svg?height=300&width=400&text=BPC+LOAS+Benefits',
+      image: '/bpc.jpg?height=300&width=400&text=BPC+LOAS+Benefits',
     },
     {
       title: 'Aposentadoria',
       description:
         'Aposentadoria por idade, tempo de contribuição, invalidez e especial. Análise completa do seu caso previdenciário.',
-      image: '/placeholder.svg?height=300&width=400&text=Retirement+Planning',
+      image: '/aposentadoria.jpg?height=300&width=400&text=Retirement+Planning',
     },
     {
       title: 'Revisão de Benefícios',
-      description: 'Revisão e aumento de benefícios já concedidos pelo INSS. Recuperação de valores pagos a menor.',
-      image: '/placeholder.svg?height=300&width=400&text=Benefits+Review',
+      description: 'Revisão e ampliação dos benefícios já concedidos pelo INSS, com possibilidade de recuperação de valores retroativos pagos a menor.',
+      image: '/revisao-beneficios.jpg?height=300&width=400&text=Benefits+Review',
     },
     {
       title: 'Outros Benefícios',
-      description: 'Auxílio-doença, pensão por morte, salário-maternidade e demais benefícios previdenciários.',
-      image: '/placeholder.svg?height=300&width=400&text=INSS+Benefits',
+      description: 'Atuação especializada em auxílio-doença, pensão por morte, salário-maternidade e demais benefícios previdenciários oferecidos pelo INSS.',
+      image: '/outros-beneficios.png?height=300&width=400&text=INSS+Benefits',
     },
   ];
 
