@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { sendContactEmail, canSendEmail, type EmailData } from "@/lib/emailjs";
-import Image from "next/image";
 
 export default function Contact() {
   const [isVisible, setIsVisible] = useState(false);
