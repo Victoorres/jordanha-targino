@@ -53,12 +53,12 @@ export default function Services() {
     },
     {
       title: 'Revisão de Benefícios',
-      description: 'Revisão e aumento de benefícios já concedidos pelo INSS. Recuperação de valores pagos a menor.',
+      description: 'Revisão e ampliação dos benefícios já concedidos pelo INSS, com possibilidade de recuperação de valores retroativos pagos a menor.',
       image: '/revisao-beneficios.jpg?height=300&width=400&text=Benefits+Review',
     },
     {
       title: 'Outros Benefícios',
-      description: 'Auxílio-doença, pensão por morte, salário-maternidade e demais benefícios previdenciários.',
+      description: 'Atuação especializada em auxílio-doença, pensão por morte, salário-maternidade e demais benefícios previdenciários oferecidos pelo INSS.',
       image: '/outros-beneficios.png?height=300&width=400&text=INSS+Benefits',
     },
   ];
