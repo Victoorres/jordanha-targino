@@ -66,12 +66,12 @@ export default function FAQ() {
     {
       question: "É possível revisar benefícios já concedidos?",
       answer:
-        "Sim! Muitos benefícios são concedidos com valores menores do que o devido. É possível fazer revisão para aumentar o valor e ainda receber as diferenças retroativas. Analisamos seu caso gratuitamente para verificar se há possibilidade de revisão.",
+        "Sim! Muitos benefícios são concedidos com valores menores do que o devido. É possível fazer revisão para aumentar o valor e ainda receber as diferenças retroativas. Analisamos seu caso para verificar se há possibilidade de revisão.",
     },
     {
       question: "Quanto custa a consulta e os honorários?",
       answer:
-        "A consulta inicial é totalmente gratuita. Nossos honorários só são cobrados em caso de êxito, ou seja, você só paga se conseguirmos seu benefício. Trabalhamos com transparência total e sem custos antecipados para o cliente.",
+        "Nossos honorários só são cobrados em caso de êxito, ou seja, você só paga se conseguirmos seu benefício. Trabalhamos com transparência total e sem custos antecipados para o cliente.",
     },
     {
       question: "Atendem em todo o Brasil?",

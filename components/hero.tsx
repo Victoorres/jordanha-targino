@@ -107,7 +107,7 @@ export default function Hero() {
                 onClick={handleContactClick}
                 className="inline-block text-gold-dark hover:text-gold-medium transition-all duration-300 text-sm font-light tracking-[0.15em] uppercase border-b border-gold-light pb-2 relative group cursor-pointer"
               >
-                Agendar Consulta Gratuita
+                Agendar Minha Consulta
                 <span className="absolute inset-0 border border-gold-light opacity-0 group-hover:opacity-100 transition-all duration-300 -m-3 rounded transform group-hover:scale-105"></span>
               </button>
             </div>

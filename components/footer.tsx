@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* Quick Action */}
           <div>
-            <h4 className="text-sm font-light text-black-deep mb-4 tracking-wide uppercase">Consulta Gratuita</h4>
+            <h4 className="text-sm font-light text-black-deep mb-4 tracking-wide uppercase">Redes Sociais</h4>
             <div className="space-y-3">
               <button
                 onClick={handleWhatsAppClick}
@@ -79,13 +79,6 @@ export default function Footer() {
               >
                 <i className="fab fa-instagram text-lg group-hover:scale-110 transition-transform"></i>
                 <span>Instagram</span>
-              </button>
-              <button
-                onClick={() => handleSmoothScroll('#contato')}
-                className="flex items-center space-x-2 text-gold-dark hover:text-gold-medium transition-colors font-light text-sm group cursor-pointer"
-              >
-                <i className="far fa-envelope group-hover:scale-110 transition-transform"></i>
-                <span>Formulário</span>
               </button>
             </div>
           </div>

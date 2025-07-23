@@ -134,7 +134,7 @@ export default function Contact() {
             ></div>
 
             <p className="text-lg text-gray-elegant mb-12 leading-relaxed font-light">
-              Agende sua consulta gratuita e descubra como podemos ajudar você a
+              Agende sua consulta e descubra como podemos ajudar você a
               <span className="font-normal text-black-deep">
                 {" "}
                 conquistar seus direitos previdenciários.
@@ -175,7 +175,7 @@ export default function Contact() {
             }`}
           >
             <h3 className="text-2xl font-serif font-light text-black-deep mb-8 tracking-tight">
-              Consulta Gratuita
+              Envie um e-mail
             </h3>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -303,7 +303,7 @@ export default function Contact() {
               </button>
 
               <p className="text-xs text-gray-elegant text-center font-light">
-                Responderemos em até 24 horas. Consulta inicial gratuita.
+                Responderemos em até 24 horas.
                 <br />
                 <span className="text-gold-dark">
                   Para evitar spam, você pode enviar apenas uma mensagem a cada

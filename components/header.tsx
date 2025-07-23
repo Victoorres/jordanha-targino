@@ -91,7 +91,7 @@ export default function Header() {
               onClick={() => handleNavClick("#contato")}
               className="text-sm text-gold-dark hover:text-gold-medium transition-all duration-300 font-light tracking-wide uppercase border-b border-gold-light pb-1 relative group cursor-pointer"
             >
-              Consulta Gratuita
+              Agendar consulta
               <span className="absolute inset-0 border border-gold-light opacity-0 group-hover:opacity-100 transition-opacity duration-300 -m-2 rounded"></span>
             </button>
           </div>
@@ -133,7 +133,7 @@ export default function Header() {
               onClick={() => handleNavClick("#contato")}
               className="text-sm text-gold-dark hover:text-gold-medium transition-all duration-300 font-light tracking-wide uppercase transform hover:translate-x-2 text-left cursor-pointer"
             >
-              Consulta Gratuita
+              Agendar Consulta
             </button>
           </nav>
         </div>

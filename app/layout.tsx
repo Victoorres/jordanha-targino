@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Jordanha Targino - Advogada Especialista em Direito Previdenciário',
   description:
-    'Especialista em BPC/LOAS, aposentadoria e benefícios do INSS. Atendimento em todo o Brasil. Consulta gratuita.',
+    'Especialista em BPC/LOAS, aposentadoria e benefícios do INSS. Atendimento em todo o Brasil.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
